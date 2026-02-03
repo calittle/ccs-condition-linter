@@ -58,8 +58,8 @@ sudo apt install nodejs
 ```
 
 ## Setup
-
-From the project directory:
+Clone the repository, or download the files (`ccs-condition-linter.js`, `package.json` and `package-lock.json` are all you need).
+Place these files into a project directory. From the project directory:
 
 ```bash
 npm install
