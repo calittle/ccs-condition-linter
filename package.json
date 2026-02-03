@@ -1,0 +1,15 @@
+{
+  "name": "ccs-cond-tester",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jsonpath-plus": "^10.3.0"
+  }
+}
