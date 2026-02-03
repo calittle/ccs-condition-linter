@@ -445,9 +445,7 @@ groups.forEach((clauses, gi) => {
           if (!hasNumber && numericStrings.length > 0) {
             console.log(`  Suggestion: the field value(s) look numeric but are strings, so "${cmp.op} ${cmp.rightRaw}" won’t evaluate as a numeric compare.`);
             console.log(`  Example value(s): ${previewList(numericStrings, 5, { maxString: 40 })}`);
-            console.log(`  Options:`);
-            console.log(`   - If CCS supports regex: use something like "@.currPayAmt =~ /^-/" to detect negatives. It probably does not suppor this, so...`);
-            console.log(`   - Or convert the JSON upstream so currPayAmt is a number (no quotes).`);            
+            console.log(`  Consider converting the JSON upstream so value is a number (no quotes).`);            
           }
         }
       }
